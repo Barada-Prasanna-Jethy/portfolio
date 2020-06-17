@@ -29,7 +29,7 @@ function App() {
               loves coding. I love travelling and discovering new places. Also,
               I enjoy playing guitar and pc games.
             </summary>
-            <img className="profile-image" src={Image} alt="profile-image" />
+            <img className="profile-image" src={Image} alt="profile" />
           </div>
         </div>
         <div id="skills">
