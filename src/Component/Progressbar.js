@@ -1,5 +1,6 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
+import Bounce from "react-reveal/Bounce";
 
 export default function Progressbar(props) {
   const width = useSpring({
@@ -9,12 +10,14 @@ export default function Progressbar(props) {
 
   return (
     <div className="skill">
-      <h2>
-        {props.title} <img className="icon" src={props.icon}></img>
-      </h2>
-      <div class="progress">
-        <animated.div class="progress-bar" style={width}></animated.div>
-      </div>
+      <Bounce left opposite={true}>
+        <h2>
+          {props.title} <img className="icon" src={props.icon}></img>
+        </h2>
+        <div class="progress">
+          <animated.div class="progress-bar" style={width}></animated.div>
+        </div>
+      </Bounce>
     </div>
   );
 }

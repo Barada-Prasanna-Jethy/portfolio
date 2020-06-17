@@ -26,9 +26,8 @@ function App() {
             <summary className="summary">
               My name is Barada Prasanna Jethy. I'm a 23 years old Front End
               Developer based in Bangalore. I describe myself as a developer who
-              loves coding, open source, and the web platform. I love travelling
-              and discovering new places. Also, I enjoy playing guitar and
-              playing pc games.
+              loves coding. I love travelling and discovering new places. Also,
+              I enjoy playing guitar and pc games.
             </summary>
             <img className="profile-image" src={Image} alt="image" />
           </div>

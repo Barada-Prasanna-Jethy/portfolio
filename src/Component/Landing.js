@@ -9,7 +9,7 @@ export default function Landing() {
       <div className="container">
         <h1>
           <span className="line">I am a </span>
-          <div className="line">Frontend Web Developer</div>
+          <div className="line">Frontend Developer</div>
           {/* <span className="line">
             <span className="color">&</span> code.
           </span> */}
