@@ -12,7 +12,7 @@ export default function ProjectCard(props) {
           <header>{props.cardTitle}</header>
           <summary>{props.cardDetails}</summary>
 
-          <a target="_blank" rel="external" href={props.website}>
+          <a target="_blank" rel="noreferrer" href={props.website}>
             <button className="button">Go to website </button>
           </a>
           <a target="_blank" href={props.github}>
