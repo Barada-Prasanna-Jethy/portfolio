@@ -15,7 +15,7 @@ export default function ProjectCard(props) {
           <a target="_blank" rel="noopener noreferrer" href={props.website}>
             <button className="button">Go to website </button>
           </a>
-          <a target="_blank" href={props.github}>
+          <a target="_blank" rel="noopener noreferrer" href={props.github}>
             <button className="button">Github</button>
           </a>
         </div>
