@@ -13,7 +13,7 @@ export default function Contact() {
         rel="noopener noreferrer"
         href="https://www.facebook.com/barada.prasannajethy"
       >
-        <img class="icon" src={facebook}></img>
+        <img class="icon" alt="icon" src={facebook}></img>
         <h1>Barada Prasanna Jethy</h1>
       </a>
       <a
@@ -21,15 +21,15 @@ export default function Contact() {
         rel="noopener noreferrer"
         href="https://www.linkedin.com/in/barada-jethy/"
       >
-        <img class="icon" src={linkedin}></img>
+        <img class="icon" alt="icon" src={linkedin}></img>
         <h1>barada-jethy</h1>
       </a>
       <span>
-        <img class="icon" src={google}></img>
+        <img class="icon" alt="icon" src={google}></img>
         <h1>baradajethy@gmail.com</h1>
       </span>
       <span>
-        <img class="icon" src={phone}></img>
+        <img class="icon" alt="icon" src={phone}></img>
         <h1>+91-7978027116</h1>
       </span>
     </div>
