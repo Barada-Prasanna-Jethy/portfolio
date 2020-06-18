@@ -367,4 +367,10 @@ h1 {
   .button {
     padding: 0.5em 0.5em;
   }
+  .contact-me {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align: left;
+    padding-left: 3em;
+  }
 }
