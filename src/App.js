@@ -3,6 +3,7 @@ import "./App.css";
 import Landing from "./Component/Landing";
 import Progressbar from "./Component/Progressbar";
 import ProjectCard from "./Component/ProjectCard";
+import Contact from "./Component/Contact";
 
 import gameflix from "./assets/gameflix.JPG";
 import notehub from "./assets/notehub.JPG";
@@ -74,6 +75,7 @@ function App() {
             />
           </div>
         </div>
+        <Contact />
       </div>
     </React.Fragment>
   );

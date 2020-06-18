@@ -9,15 +9,15 @@ export default function Progressbar(props) {
   });
 
   return (
-    <div className="skill">
-      <Bounce left opposite={true}>
+    <Bounce left opposite={true}>
+      <div className="skill">
         <h2>
           {props.title} <img className="icon" alt="icon" src={props.icon}></img>
         </h2>
         <div class="progress">
           <animated.div class="progress-bar" style={width}></animated.div>
         </div>
-      </Bounce>
-    </div>
+      </div>
+    </Bounce>
   );
 }

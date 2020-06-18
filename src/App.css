@@ -275,7 +275,20 @@ h1 {
   padding-top: 30px;
   font-family: Prompt;
 }
-
+.contact-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  text-align: center;
+  background: #181d23;
+  box-shadow: 8px 8px 15px #0a0c0e, -8px -8px 15px #262e38;
+}
+.contact-me h1 {
+  display: inline-block;
+  margin-left: 7px;
+  color: rgb(197, 206, 215);
+}
 /* media queries */
 @media only screen and (max-width: 1163px) {
   body {
